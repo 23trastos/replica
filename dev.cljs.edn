@@ -1,0 +1,7 @@
+^{:extra-main-files {:devcards {:main cards.core}}}
+{:output-to "resources/public/cljs-out/dev-main.js"
+ :optimizations :none
+ :pretty-print true
+ :source-map true
+ :devcards true
+ :main klipsereagent.core}

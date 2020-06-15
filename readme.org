@@ -1,0 +1,10 @@
+#+TITLE: klipsereagent
+
+# Build with defaults shows default figwheel dev page
+clojure -m figwheel.main
+
+# build with our custom figwheel-main options
+clojure -m figwheel.main --build dev --repl
+
+http://localhost:9500/
+http://localhost:9500/figwheel-extra-main/devcards
