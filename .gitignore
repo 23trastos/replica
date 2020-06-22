@@ -1,3 +1,4 @@
 resources/public/cljs-out/
 node_modules/
 .cpcache/
+.rebel_readline_history

@@ -1,0 +1,26 @@
+{
+  "name": "replica",
+  "version": "0.0.1",
+  "description": "The REPL-based Extendable Platform for Live Interactive Composition Assistance",
+  "scripts": {
+    "start": "clojure -m figwheel.main -b dev -r",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23trastos/replica.git"
+  },
+  "keywords": [
+    "live-coding",
+    "composition",
+    "cljs",
+    "repl"
+  ],
+  "author": "Llorenç Prats Boscà",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/23trastos/replica/issues"
+  },
+  "homepage": "https://github.com/23trastos/replica#readme",
+  "dependencies": {}
+}
