@@ -13,7 +13,6 @@
                            :selector_eval_html ".html"
                            :editor_type "code-mirror"})
 
-
 (defn rklipse-comp [{:keys [id lang snippet from-gist settings]}]  
   (reagent/create-class    
     {:component-did-mount (fn [_]
@@ -21,7 +20,8 @@
                             (when from-gist) (js/loadGist (:id from-gist) (:file from-gist) id))   
      :reagent-render      (fn [{:keys [lang snippet]}]
                             [:div.rklipse
-                             [:div {:class ["klipse" lang]} snippet]])}))
+                             [:div {:class ["klipse" lang]}
+                              snippet]])}))
 
 (defn rklipse [id & {:keys [title style lang snippet from-gist settings] :or {lang "cljs"}}]
   (rcell id :title title :style style :content [rklipse-comp {:id id 

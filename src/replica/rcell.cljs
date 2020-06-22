@@ -11,7 +11,7 @@
 
 (defn rcell [id & {:keys [title style content]}]
   "adds a new REPL!CA cell to the tree."
-  (swap! state/rcells assoc id {:id id 
-                                :title (or title id) 
-                                :style style 
-                                :content content}))
+  (swap! state/rcells assoc id [rcell-comp {:id id
+                                            :title (or title id) 
+                                            :style style 
+                                            :content content}]))
