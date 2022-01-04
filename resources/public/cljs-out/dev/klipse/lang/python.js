@@ -6,24 +6,24 @@ goog.require('klipse.utils');
 goog.require('klipse.common.registry');
 goog.require('applied_science.js_interop');
 klipse.lang.python.builtin_read = (function klipse$lang$python$builtin_read(x){
-if(((((function (){var obj26841 = Sk;
-var k26842 = "builtinFiles";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26841,k26842)){
-return (obj26841[k26842]);
+if(((((function (){var obj41932 = Sk;
+var k41933 = "builtinFiles";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41932,k41933)){
+return (obj41932[k41933]);
 } else {
 return null;
 }
-})() == null)) || ((((function (){var obj26845 = (function (){var obj26843 = Sk;
-var k26844 = "builtinFiles";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26843,k26844)){
-return (obj26843[k26844]);
+})() == null)) || ((((function (){var obj41936 = (function (){var obj41934 = Sk;
+var k41935 = "builtinFiles";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41934,k41935)){
+return (obj41934[k41935]);
 } else {
 return null;
 }
 })();
-var k26846 = "files";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26845,k26846)){
-return (obj26845[k26846]);
+var k41937 = "files";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41936,k41937)){
+return (obj41936[k41937]);
 } else {
 return null;
 }
@@ -32,119 +32,119 @@ throw ["File not found: '",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),"'"].j
 } else {
 }
 
-return ((function (){var obj26849 = (function (){var obj26847 = Sk;
-var k26848 = "builtinFiles";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26847,k26848)){
-return (obj26847[k26848]);
+return ((function (){var obj41940 = (function (){var obj41938 = Sk;
+var k41939 = "builtinFiles";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41938,k41939)){
+return (obj41938[k41939]);
 } else {
 return null;
 }
 })();
-var k26850 = "files";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26849,k26850)){
-return (obj26849[k26850]);
+var k41941 = "files";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41940,k41941)){
+return (obj41940[k41941]);
 } else {
 return null;
 }
 })()[x]);
 });
 klipse.lang.python.init = klipse.utils.runonce.call(null,(function (){
-var obj26851 = Sk;
-var obj26852 = (((!((obj26851 == null))))?obj26851:({}));
-(obj26852["TurtleGraphics"] = ({}));
+var obj41942 = Sk;
+var obj41943 = (((!((obj41942 == null))))?obj41942:({}));
+(obj41943["TurtleGraphics"] = ({}));
 
-return obj26852;
+return obj41943;
 }));
-klipse.lang.python.str_eval_async = (function klipse$lang$python$str_eval_async(exp,p__26856){
-var map__26857 = p__26856;
-var map__26857__$1 = (((((!((map__26857 == null))))?(((((map__26857.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26857.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26857):map__26857);
-var container_id = cljs.core.get.call(null,map__26857__$1,new cljs.core.Keyword(null,"container-id","container-id",1274665684));
+klipse.lang.python.str_eval_async = (function klipse$lang$python$str_eval_async(exp,p__41947){
+var map__41948 = p__41947;
+var map__41948__$1 = (((((!((map__41948 == null))))?(((((map__41948.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41948.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__41948):map__41948);
+var container_id = cljs.core.get.call(null,map__41948__$1,new cljs.core.Keyword(null,"container-id","container-id",1274665684));
 klipse.lang.python.init.call(null);
 
 var c = cljs.core.async.chan.call(null);
-var obj__18568__auto___26877 = Sk;
-var f__18569__auto___26878 = (function (){var obj26859 = obj__18568__auto___26877;
-var k26860 = "configure";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26859,k26860)){
-return (obj26859[k26860]);
+var obj__26008__auto___41968 = Sk;
+var f__26009__auto___41969 = (function (){var obj41950 = obj__26008__auto___41968;
+var k41951 = "configure";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41950,k41951)){
+return (obj41950[k41951]);
 } else {
 return null;
 }
 })();
-f__18569__auto___26878.call(obj__18568__auto___26877,({"output": ((function (obj__18568__auto___26877,f__18569__auto___26878,c,map__26857,map__26857__$1,container_id){
-return (function (p1__26855_SHARP_){
-return cljs.core.async.put_BANG_.call(null,c,p1__26855_SHARP_);
-});})(obj__18568__auto___26877,f__18569__auto___26878,c,map__26857,map__26857__$1,container_id))
+f__26009__auto___41969.call(obj__26008__auto___41968,({"output": ((function (obj__26008__auto___41968,f__26009__auto___41969,c,map__41948,map__41948__$1,container_id){
+return (function (p1__41946_SHARP_){
+return cljs.core.async.put_BANG_.call(null,c,p1__41946_SHARP_);
+});})(obj__26008__auto___41968,f__26009__auto___41969,c,map__41948,map__41948__$1,container_id))
 , "read": klipse.lang.python.builtin_read}));
 
-(function (){var parent__18575__auto__ = (function (){var obj26861 = Sk;
-var k26862 = "misceval";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26861,k26862)){
-return (obj26861[k26862]);
+(function (){var parent__26015__auto__ = (function (){var obj41952 = Sk;
+var k41953 = "misceval";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41952,k41953)){
+return (obj41952[k41953]);
 } else {
 return null;
 }
 })();
-var f__18576__auto__ = (function (){var obj26863 = parent__18575__auto__;
-var k26864 = "asyncToPromise";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26863,k26864)){
-return (obj26863[k26864]);
+var f__26016__auto__ = (function (){var obj41954 = parent__26015__auto__;
+var k41955 = "asyncToPromise";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41954,k41955)){
+return (obj41954[k41955]);
 } else {
 return null;
 }
 })();
-return f__18576__auto__.call(parent__18575__auto__,((function (parent__18575__auto__,f__18576__auto__,c,map__26857,map__26857__$1,container_id){
+return f__26016__auto__.call(parent__26015__auto__,((function (parent__26015__auto__,f__26016__auto__,c,map__41948,map__41948__$1,container_id){
 return (function (){
 cljs.core.async.put_BANG_.call(null,c,"Output:\n");
 
-var obj26865_26879 = Sk;
-var obj26865_26880__$1 = (((!((obj26865_26879 == null))))?obj26865_26879:({}));
-var inner_obj__18541__auto___26881 = (function (){var child26866 = (obj26865_26880__$1["TurtleGraphics"]);
-if((!((child26866 == null)))){
-return child26866;
+var obj41956_41970 = Sk;
+var obj41956_41971__$1 = (((!((obj41956_41970 == null))))?obj41956_41970:({}));
+var inner_obj__25981__auto___41972 = (function (){var child41957 = (obj41956_41971__$1["TurtleGraphics"]);
+if((!((child41957 == null)))){
+return child41957;
 } else {
-var new_child__18513__auto__ = ({});
-var obj26871_26882 = obj26865_26880__$1;
-(obj26871_26882["TurtleGraphics"] = new_child__18513__auto__);
+var new_child__25953__auto__ = ({});
+var obj41962_41973 = obj41956_41971__$1;
+(obj41962_41973["TurtleGraphics"] = new_child__25953__auto__);
 
 
-return new_child__18513__auto__;
+return new_child__25953__auto__;
 }
 })();
-var obj26872_26883 = inner_obj__18541__auto___26881;
-(obj26872_26883["target"] = container_id);
+var obj41963_41974 = inner_obj__25981__auto___41972;
+(obj41963_41974["target"] = container_id);
 
 
 
-var obj__18568__auto__ = Sk;
-var f__18569__auto__ = (function (){var obj26873 = obj__18568__auto__;
-var k26874 = "importMainWithBody";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26873,k26874)){
-return (obj26873[k26874]);
+var obj__26008__auto__ = Sk;
+var f__26009__auto__ = (function (){var obj41964 = obj__26008__auto__;
+var k41965 = "importMainWithBody";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41964,k41965)){
+return (obj41964[k41965]);
 } else {
 return null;
 }
 })();
-return f__18569__auto__.call(obj__18568__auto__,"<stdin>",false,exp,true);
-});})(parent__18575__auto__,f__18576__auto__,c,map__26857,map__26857__$1,container_id))
+return f__26009__auto__.call(obj__26008__auto__,"<stdin>",false,exp,true);
+});})(parent__26015__auto__,f__26016__auto__,c,map__41948,map__41948__$1,container_id))
 );
-})().then(((function (c,map__26857,map__26857__$1,container_id){
+})().then(((function (c,map__41948,map__41948__$1,container_id){
 return (function (mod){
-var obj__18568__auto__ = console;
-var f__18569__auto__ = (function (){var obj26875 = obj__18568__auto__;
-var k26876 = "info";
-if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj26875,k26876)){
-return (obj26875[k26876]);
+var obj__26008__auto__ = console;
+var f__26009__auto__ = (function (){var obj41966 = obj__26008__auto__;
+var k41967 = "info";
+if(applied_science.js_interop.impl.contains_QMARK__STAR_.call(null,obj41966,k41967)){
+return (obj41966[k41967]);
 } else {
 return null;
 }
 })();
-return f__18569__auto__.call(obj__18568__auto__,"success to eval skulpt: ");
-});})(c,map__26857,map__26857__$1,container_id))
-,((function (c,map__26857,map__26857__$1,container_id){
+return f__26009__auto__.call(obj__26008__auto__,"success to eval skulpt: ");
+});})(c,map__41948,map__41948__$1,container_id))
+,((function (c,map__41948,map__41948__$1,container_id){
 return (function (err){
 return cljs.core.async.put_BANG_.call(null,c,["error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(err)].join(''));
-});})(c,map__26857,map__26857__$1,container_id))
+});})(c,map__41948,map__41948__$1,container_id))
 );
 
 return c;

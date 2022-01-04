@@ -6,19 +6,19 @@ goog.require('clojure.string');
 goog.require('cljs.core.async');
 goog.require('klipse.common.registry');
 goog.require('klipse_clj.lang.clojure');
-klipse.lang.reagent.eval_reagent = (function klipse$lang$reagent$eval_reagent(src,p__26803){
-var map__26804 = p__26803;
-var map__26804__$1 = (((((!((map__26804 == null))))?(((((map__26804.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26804.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26804):map__26804);
-var opts = map__26804__$1;
-var container_id = cljs.core.get.call(null,map__26804__$1,new cljs.core.Keyword(null,"container-id","container-id",1274665684));
-var container = cljs.core.get.call(null,map__26804__$1,new cljs.core.Keyword(null,"container","container",-1736937707));
+klipse.lang.reagent.eval_reagent = (function klipse$lang$reagent$eval_reagent(src,p__41819){
+var map__41820 = p__41819;
+var map__41820__$1 = (((((!((map__41820 == null))))?(((((map__41820.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41820.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__41820):map__41820);
+var opts = map__41820__$1;
+var container_id = cljs.core.get.call(null,map__41820__$1,new cljs.core.Keyword(null,"container-id","container-id",1274665684));
+var container = cljs.core.get.call(null,map__41820__$1,new cljs.core.Keyword(null,"container","container",-1736937707));
 try{var exps = klipse_clj.lang.clojure.split_expressions.call(null,src);
 var component = klipse_clj.lang.clojure.read_string.call(null,cljs.core.last.call(null,exps));
 var component__$1 = ((cljs.core.vector_QMARK_.call(null,component))?component:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [component], null));
 var other_code = clojure.string.join.call(null,"\n",cljs.core.drop_last.call(null,(1),exps));
 var code = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(other_code),cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("reagent.core","render-component","reagent.core/render-component",-2060829669,null),null,(1),null)),(new cljs.core.List(null,component__$1,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("js","document.getElementById","js/document.getElementById",2053304690,null),null,(1),null)),(new cljs.core.List(null,container_id,null,(1),null))))),null,(1),null))))))].join('');
 return klipse_clj.lang.clojure.str_eval_async.call(null,code,opts);
-}catch (e26806){var e = e26806;
+}catch (e41822){var e = e41822;
 goog.dom.setTextContent(container,cljs.core.str.cljs$core$IFn$_invoke$arity$1(e));
 
 var c = cljs.core.async.chan.call(null);

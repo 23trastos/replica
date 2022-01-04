@@ -12,14 +12,14 @@ gadjett.core_fn.settings = new cljs.core.PersistentArrayMap(null, 4, [new cljs.c
 }
 gadjett.core_fn.settings_BANG_ = (function gadjett$core_fn$settings_BANG_(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___19876 = arguments.length;
-var i__4731__auto___19877 = (0);
+var len__4730__auto___28114 = arguments.length;
+var i__4731__auto___28115 = (0);
 while(true){
-if((i__4731__auto___19877 < len__4730__auto___19876)){
-args__4736__auto__.push((arguments[i__4731__auto___19877]));
+if((i__4731__auto___28115 < len__4730__auto___28114)){
+args__4736__auto__.push((arguments[i__4731__auto___28115]));
 
-var G__19878 = (i__4731__auto___19877 + (1));
-i__4731__auto___19877 = G__19878;
+var G__28116 = (i__4731__auto___28115 + (1));
+i__4731__auto___28115 = G__28116;
 continue;
 } else {
 }
@@ -30,26 +30,26 @@ var argseq__4737__auto__ = ((((0) < args__4736__auto__.length))?(new cljs.core.I
 return gadjett.core_fn.settings_BANG_.cljs$core$IFn$_invoke$arity$variadic(argseq__4737__auto__);
 });
 
-gadjett.core_fn.settings_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (p__19873){
-var map__19874 = p__19873;
-var map__19874__$1 = (((((!((map__19874 == null))))?(((((map__19874.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__19874.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__19874):map__19874);
-var args = map__19874__$1;
+gadjett.core_fn.settings_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (p__28111){
+var map__28112 = p__28111;
+var map__28112__$1 = (((((!((map__28112 == null))))?(((((map__28112.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__28112.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__28112):map__28112);
+var args = map__28112__$1;
 return gadjett.core_fn.settings = cljs.core.merge.call(null,gadjett.core_fn.settings,args);
 });
 
 gadjett.core_fn.settings_BANG_.cljs$lang$maxFixedArity = (0);
 
 /** @this {Function} */
-gadjett.core_fn.settings_BANG_.cljs$lang$applyTo = (function (seq19872){
+gadjett.core_fn.settings_BANG_.cljs$lang$applyTo = (function (seq28110){
 var self__4718__auto__ = this;
-return self__4718__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq19872));
+return self__4718__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq28110));
 });
 
 gadjett.core_fn.add_event_and_filter = (function gadjett$core_fn$add_event_and_filter(timestamp_msec,events){
 var timeslot = new cljs.core.Keyword(null,"timeslot-function-calls-msec","timeslot-function-calls-msec",189712759).cljs$core$IFn$_invoke$arity$1(gadjett.core_fn.settings);
 return cljs.core.cons.call(null,timestamp_msec,cljs.core.take_while.call(null,((function (timeslot){
-return (function (p1__19879_SHARP_){
-return (p1__19879_SHARP_ > (timestamp_msec - timeslot));
+return (function (p1__28117_SHARP_){
+return (p1__28117_SHARP_ > (timestamp_msec - timeslot));
 });})(timeslot))
 ,events));
 });
@@ -71,8 +71,8 @@ return cljs.core.sort_by.call(null,cljs.core.second,gadjett.collections.map_obje
  * returns the history as an array, sorted by number of function calls
  */
 gadjett.core_fn.the_history = (function gadjett$core_fn$the_history(var_args){
-var G__19881 = arguments.length;
-switch (G__19881) {
+var G__28119 = arguments.length;
+switch (G__28119) {
 case 1:
 return gadjett.core_fn.the_history.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
