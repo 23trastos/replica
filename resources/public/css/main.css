@@ -3,4 +3,9 @@
     background: no-repeat center url("../imgs/replica_full_logo.svg");
     opacity: 0.5;
 }
+
 .no-close .ui-dialog-titlebar-close {display: none;}
+
+.ui-dialog {
+    z-index: 0;
+}
