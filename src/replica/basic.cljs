@@ -11,7 +11,7 @@
      :reagent-render (fn [{:keys [id title style]} & extra]
                        (into [:div.rcell {:id id :title title :style style}] extra))}))
 
-(defn rcell [{:keys [id title style content jq-settings]} & extra]
+(defn rcell [{:keys [id title style jq-settings]} & extra]
   (swap! rstate assoc-in [:rcells id] (into [rcell-comp {:id id
                                                          :title (or title id)
                                                          :style style
