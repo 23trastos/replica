@@ -4,7 +4,7 @@
     opacity: 0.5;
 }
 
-.ui-dialog-titlebar-close {font-size: 0;}
+.ui-dialog .ui-dialog-titlebar-close {font-size: 0;}
 
 .no-close .ui-dialog-titlebar-close {display: none;}
 
