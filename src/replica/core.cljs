@@ -10,14 +10,14 @@
 
 (defn ^:export main []
   
-  (rcell {:id "start"
+  (rcell {:id :start
           :title "loading (ns replica.user.basic)"
           :jq-settings {:dialogClass "no-close"
                         :resizable false
                         :position {:my "top"
                                    :at "top"
                                    :of "#ui"}}}
-         [rklipse {:id "start" :lang "cljs"
+         [rklipse {:id :start :lang "cljs"
                    :from-gist {:id "a1d56b4533907915abf3647285e257b4"
                                :file "basic.cljs"}
                    :settings {:eval_idle_msec 0}}])
