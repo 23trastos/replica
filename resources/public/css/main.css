@@ -1,7 +1,6 @@
 #ui {
     height: 98vh;
     background: no-repeat center url("../imgs/replica_full_logo.svg");
-    opacity: 1;
 }
 
 .ui-dialog .ui-dialog-titlebar-close {font-size: 0;}
