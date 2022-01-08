@@ -1,13 +1,18 @@
 body {
     background: no-repeat center url("../imgs/replica_logo.svg");
 }
+
 #ui {
     height: 98vh;
 }
 
-.ui-dialog .ui-dialog-titlebar-close {font-size: 0;}
+.ui-dialog .ui-dialog-titlebar-close {
+    font-size: 0;
+}
 
-.no-close .ui-dialog-titlebar-close {display: none;}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
 
 .ui-dialog {
     z-index: 0;
