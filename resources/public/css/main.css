@@ -1,7 +1,7 @@
 #ui {
     height: 98vh;
-    -webkit-mask: url(../imgs/replica_logo.svg) no-repeat; 
-    mask: url(../imgs/replica_logo.svg) no-repeat;
+    -webkit-mask: url(../imgs/replica_logo.svg) center no-repeat; 
+    mask: url(../imgs/replica_logo.svg) center no-repeat;
     background-color: purple;
 }
 
