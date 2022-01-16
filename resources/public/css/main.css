@@ -1,7 +1,10 @@
 #ui {
     height: 98vh;
-    background: no-repeat center url("../imgs/replica_logo.svg");
-    opacity: 0.5;
+    -webkit-mask: url(../imgs/replica_logo.svg) no-repeat 50% 50%; 
+    mask: url(../imgs/replica_logo.svg) no-repeat 50% 50%;  
+    -webkit-mask-size: cover;  
+    mask-size: cover;
+    background-color: purple;
 }
 
 .ui-dialog .ui-dialog-titlebar-close {
