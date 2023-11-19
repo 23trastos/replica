@@ -11,7 +11,7 @@
 (defn ^:export main []
   
   (rcell {:id "start"
-          :title "loading (ns replica.user.basic)"
+          :title "loading..."
           :jq-settings {:dialogClass "no-close"
                         :resizable false
                         :position {:my "top"
