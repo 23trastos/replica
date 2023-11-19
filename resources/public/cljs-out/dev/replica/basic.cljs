@@ -28,7 +28,7 @@
   (create-class
    {:component-did-mount (fn [_]
                            (klipse/init (clj->js (merge default-settings settings)))
-                           (when from-gist (js/loadGist (:id from-gist) (:file from-gist) id)))
+                           (when from-gist (js/loadGist (:id from-gist) (:file from-gist) (clj->js id))))
     :reagent-render      (fn [{:keys [id lang snippet]} & extra]
                            (into [:div.rklipse {:id (str id "-klipse")}
                                   [:div {:class ["klipse" lang]}
