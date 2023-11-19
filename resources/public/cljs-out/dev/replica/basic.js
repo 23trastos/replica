@@ -162,7 +162,7 @@ return (function (_){
 klipse.plugin.init.call(null,cljs.core.clj__GT_js.call(null,cljs.core.merge.call(null,replica.basic.default_settings,settings)));
 
 if(cljs.core.truth_(from_gist)){
-return loadGist(new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(from_gist),new cljs.core.Keyword(null,"file","file",-1269645878).cljs$core$IFn$_invoke$arity$1(from_gist),id);
+return loadGist(new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(from_gist),new cljs.core.Keyword(null,"file","file",-1269645878).cljs$core$IFn$_invoke$arity$1(from_gist),cljs.core.clj__GT_js.call(null,id));
 } else {
 return null;
 }
