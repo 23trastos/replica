@@ -16,3 +16,7 @@
 .ui-dialog {
     z-index: 0;
 }
+
+.r-ui {
+    background-color: light-purple;
+}
