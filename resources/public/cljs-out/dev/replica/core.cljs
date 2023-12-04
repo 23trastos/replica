@@ -18,7 +18,7 @@
                                    :at "top"
                                    :of "#ui"}}}
          [rklipse {:id "start" :lang "cljs"
-                   :from-gist {:id "a1d56b4533907915abf3647285e257b4"
+                   :from-gist {:id "2d91640fe384130116e26ad135619b77"
                                :file "basic.cljs"}
                    :settings {:eval_idle_msec 0}}])
 
