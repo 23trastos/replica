@@ -21,6 +21,7 @@
                            :selector_eval_js ".js"
                            :selector_eval_markdown ".md"
                            :selector_eval_html ".html"
+                           :selector_guido ".guido"
                            :editor_type "code-mirror"
                            :eval_idle_msec 9999999})
 
