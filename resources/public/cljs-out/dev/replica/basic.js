@@ -127,7 +127,7 @@ return self__4717__auto__.cljs$core$IFn$_invoke$arity$variadic(G__48802,seq48801
 
 if((typeof replica !== 'undefined') && (typeof replica.basic !== 'undefined') && (typeof replica.basic.default_settings !== 'undefined')){
 } else {
-replica.basic.default_settings = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"","",762528866),".cljs",new cljs.core.Keyword(null,"_eval_js","selector_eval_js",-1361450105),".js",new cljs.core.Keyword(null,"selector_eval_markdown","selector_eval_markdown",1798387307),".md",new cljs.core.Keyword(null,"selector_eval_html","selector_eval_html",447359765),".html",new cljs.core.Keyword(null,"editor_type","editor_type",195783179),"code-mirror",new cljs.core.Keyword(null,"eval_idle_msec","eval_idle_msec",1104296094),(9999999)], null);
+replica.basic.default_settings = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"selector","selector",762528866),".cljs",new cljs.core.Keyword(null,"selector_eval_js","selector_eval_js",-1361450105),".js",new cljs.core.Keyword(null,"selector_eval_markdown","selector_eval_markdown",1798387307),".md",new cljs.core.Keyword(null,"selector_eval_html","selector_eval_html",447359765),".html",new cljs.core.Keyword(null,"editor_type","editor_type",195783179),"code-mirror",new cljs.core.Keyword(null,"eval_idle_msec","eval_idle_msec",1104296094),(9999999)], null);
 }
 replica.basic.rklipse = (function replica$basic$rklipse(var_args){
 var args__4736__auto__ = [];
